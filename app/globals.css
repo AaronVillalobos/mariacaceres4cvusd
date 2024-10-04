@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-    --background: #cac3cd;
+    --background: ##FAF9F6;
     --foreground: #171717;
 }
 
@@ -14,6 +14,6 @@ body {
     border: 1px red solid;
 }
 
-main {
+.start {
     border: 1px blue solid;
 }
