@@ -1,0 +1,36 @@
+.priorities {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.priorities-title {
+    display: flex;
+    justify-content: center;
+    color: rgba(4, 60, 100);
+    font-size: 44px;
+    font-weight: 700;
+    padding: 16px;
+    text-decoration: underline;
+}
+
+.plans {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+}
+
+.plan-lists {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.highlights {
+    color: #e42424;
+    font-weight: 700;
+}
