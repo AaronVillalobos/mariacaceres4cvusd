@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(4, 60, 100);
+}
+
+.main-footer {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.paid-for {
+    font-size: small;
+    color:#fff;
+}
+
+.insta {
+    margin-bottom: 20px;
+}

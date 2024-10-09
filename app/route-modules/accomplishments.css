@@ -1,0 +1,61 @@
+.accomplishment {
+    display: flex;
+    flex-direction: column;
+}
+
+.accomplishment-title {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(4, 60, 100);
+    font-size: 44px;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.accomplishment-section {
+    background-color: #cac3cd;
+}
+
+.accomplishment-open {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    font-size: 24px;
+    color: rgba(4, 60, 100);
+    font-weight: 650;
+}
+
+.disclosures {
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+    width: 600px;
+    margin: auto;
+}
+
+.py-2 {
+    background-color: #fff;
+    border: solid #4b7393 1px;
+    color: #e42424;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.lists {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    font-size: 18px;
+    padding: 16px;
+    gap: 8px;
+}
+
+.highlight {
+    font-weight: 700;
+    color: rgba(4, 60, 100);
+}
