@@ -21,11 +21,21 @@
     gap: 16px;
 }
 
+ul.plan-lists li {
+    list-style: none;
+    display: inline-block;
+    padding: 36px 0 20px 32px;
+    background-image: url("/images/bullet-point.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+}
+
 .plan-lists {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 24px;
+    gap: 16px;
     margin-left: 120px;
     margin-right: 120px;
 }
