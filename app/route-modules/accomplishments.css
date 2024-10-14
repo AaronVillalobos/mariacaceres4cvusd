@@ -3,59 +3,78 @@
     flex-direction: column;
 }
 
-.accomplishment-title {
+.accomp {
+    font-weight: 700;
+    color: rgba(4, 60, 100);
+}
+
+.accomplishment-header {
     display: flex;
     justify-content: center;
     background-color: rgba(4, 60, 100);
     font-size: 44px;
-    color: whitesmoke;
+    color: #fff;
     font-weight: 600;
 }
 
 .accomplishment-section {
-    background-color: #cac3cd;
+    background-image: url('/images/IMG_6582.JPG');
+    background-size: cover;
+    background-position-x: 25%;
+    background-repeat: no-repeat;
 }
 
 .accomplishment-open {
     display: flex;
     justify-content: center;
+    background-color: #fff;
     padding: 16px;
     font-size: 24px;
     color: rgba(4, 60, 100);
     font-weight: 650;
 }
 
-.disclosures {
-    margin-top: 2px;
+.groups {
+    background-color: rgba(255, 255, 255, 0.6);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     padding: 16px;
-    width: 600px;
-    margin: auto;
 }
 
-.py-2 {
-    background-color: #fff;
-    border: solid #4b7393 1px;
+
+.accomp-title {
     color: #e42424;
+    text-decoration: underline rgba(4, 60, 100) 3px;
     display: flex;
-    justify-content: center;
     padding: 16px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
 }
 
-.lists {
+
+
+.group-1 {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.group-2 {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.accomp-panel {
+    padding: 8px;
+    width: 600px;
+}
+
+.accomp-lists {
     display: flex;
     flex-direction: column;
-    background-color: #fff;
-    font-size: 18px;
     padding: 16px;
-    gap: 8px;
-}
-
-.highlight {
-    font-weight: 700;
-    color: rgba(4, 60, 100);
+    gap: 16px;
 }
