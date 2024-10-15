@@ -1,49 +1,36 @@
 main {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
+    
+
 }
 .opening-background {
     display: flex;
     background-image: url('/images/IMG_5155.jpeg');
     background-position-y: 30%;
     background-size: cover;
-    height: 360px;
 }
 
 .layer {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    gap: 80px;
     background-color: rgba(255, 255, 255, 0.75);
-    position: relative;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 }
 
-.logo-placeholder {
-    flex-shrink: 0;
-    margin-left: 160px;
-}
-
-.profile-placeholder {
-    justify-content: flex-start;
-    margin-left: 160px;
-}
-
-.profile {
-    position: relative;
+.placeholders {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 16px;
+    gap: 100px;
 }
 
 .message {
     background-color: rgba(4, 60, 100);
     display: flex;
     flex-direction: column;
-    height: 400px;
     gap: 24px;
 }
 
@@ -59,11 +46,15 @@ main {
     padding: 16px;
 }
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
 .quote {
     padding: 16px;
     letter-spacing: 2px;
-    margin-left: 150px;
-    margin-right: 150px;
     font-style: italic;
     font-weight: 600;
     font-size: 20px;
@@ -81,7 +72,8 @@ main {
 .about {
     display: flex;
     flex-direction: column;
-    margin-top: 60px;
+    margin-top: 40px;
+    background-color: #FAF9F6;
 }
 
 .about-header {

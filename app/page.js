@@ -7,8 +7,10 @@ function Home() {
       <main>
         <div className='message'>
           <div className='message-header'>TEACHER. COMMUNITY LEADER. MENTOR.</div>
-          <div className='quote'>&quot;As a lifelong educator, credentialed counselor, former classified employee, and board trustee, I have served in education for over 20 years. <strong><u>Experience matters</u></strong> in this election, and I am the only candidate in this race with the educational background and experience needed to continue moving C-VUSD forward. It would be my honor to earn your vote and continue serving as your board representative for Trustee Area 5.&quot;
-          <div className='signature'>— Trustee Maria Caceres</div>
+          <div className="quote-container">
+            <div className='quote'>&quot;As a lifelong educator, credentialed counselor, former classified employee, and board trustee, I have served in education for over 20 years. <strong><u>Experience matters</u></strong> in this election, and I am the only candidate in this race with the educational background and experience needed to continue moving C-VUSD forward. It would be my honor to earn your vote and continue serving as your board representative for Trustee Area 5.&quot;
+            <div className='signature'>— Trustee Maria Caceres</div>
+          </div>
           </div>
         </div>
         <div className='about'>
