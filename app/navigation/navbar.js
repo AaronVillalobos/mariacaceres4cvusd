@@ -8,11 +8,11 @@ const Navbar = () => {
             <div id='home'>
                 <Link href="/">HOME</Link>
             </div>
-            <Link className ='priorities' href="/priorities">PRIORITIES</Link>
-            <Link className ='accomplishments' href="/accomplishments">ACCOMPLISHMENTS</Link>
-            <Link className ='district' href="/district">DISTRICT 5</Link>
-            <Link className ='contact' href="/contact">CONTACT US</Link>
-            <Link className ='contribute' href="https://www.efundraisingconnections.com/c/CaceresforSchoolBoard2024 ">CONTRIBUTE</Link>
+            <Link className ='links' href="/priorities">PRIORITIES</Link>
+            <Link className ='links' href="/accomplishments">ACCOMPLISHMENTS</Link>
+            <Link className ='links' href="/district">DISTRICT 5</Link>
+            <Link className ='links' href="/contact">CONTACT US</Link>
+            <Link className ='links' href="https://www.efundraisingconnections.com/c/CaceresforSchoolBoard2024 ">CONTRIBUTE</Link>
         </nav>
     )
 }

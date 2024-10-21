@@ -10,3 +10,15 @@
     font-weight: 600;
     margin: 0;
 }
+
+.links:hover {
+    color: #e42424;
+}
+
+.links:active {
+    color: #e42424;
+}
+
+#home:hover {
+    color: #e42424;
+}
