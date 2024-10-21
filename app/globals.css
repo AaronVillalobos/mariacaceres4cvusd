@@ -6,8 +6,9 @@
     --background: #FAF9F6;
     --foreground: #171717;
 }
-
+html,
 body {
+    padding: 0;
     color: var(--foreground);
     background: var(--background);
     margin: 0;
