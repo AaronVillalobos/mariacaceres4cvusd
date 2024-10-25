@@ -13,17 +13,22 @@
 
 form {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 8px;
     padding: 16px;
     flex-direction: column;
 }
 
-input, textarea {
+.subject, textarea {
     border: solid 2px;
     border-radius: 8px;
-    width: 30%;
+    width: 300px;
     padding: 4px;
+}
+
+input:hover, textarea:hover {
+    border-color: #e42424;
 }
 
 button {
@@ -31,4 +36,21 @@ button {
     border-radius: 8px;
     color: #fff;
     padding: 4px;
+}
+
+button:hover {
+    background-color: #e42424;
+    font-weight: 600;
+}
+
+input[type="checkbox"]
+{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.agreement {
+    display: flex;
+    width: 40%;
+    color: #333;
 }
