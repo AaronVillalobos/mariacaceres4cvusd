@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.policy-container {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    justify-content: center;
+    gap: 16px;
+}
+
+.policy-header {
+    display: flex;
+    justify-content: center;
+}
+
+.policy-title {
+    font-size: 32px;
+    color: #e42424;
+    font-weight: 600;
+}
+
+.policy-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+}
+
+.policy-message-1 {
+    font-weight: 600;
+    color: rgba(33, 33, 33, 0.8);
+}
+
+.policy-message {
+    font-weight: 600;
+    color: rgba(33, 33, 33, 0.6);
+}

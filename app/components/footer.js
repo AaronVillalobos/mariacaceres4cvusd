@@ -23,6 +23,7 @@ const Footer = () => {
                         alt='Instagram'
                     />
                 </Link>
+                <div className="policy-footer">Click to view <Link className="policy-link" href="/privacy-policy">Privacy Policy</Link></div>
             </footer>
         </div>
     )

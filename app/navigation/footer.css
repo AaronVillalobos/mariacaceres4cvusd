@@ -22,3 +22,12 @@
 .insta {
     margin-bottom: 20px;
 }
+
+.policy-footer {
+    color: #fff;
+    font-size: x-small;
+}
+
+.policy-link {
+    text-decoration: underline;
+}
