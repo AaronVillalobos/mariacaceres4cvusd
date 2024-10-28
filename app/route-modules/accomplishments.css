@@ -78,3 +78,16 @@
     padding: 16px;
     gap: 16px;
 }
+
+@media (max-width: 768px) {
+    .group-1 {
+        flex-flow: row wrap;
+    }
+    .group-2 {
+        flex-flow: row wrap;
+    }
+    .accomplishment-section {
+        background-size: cover;
+        background-position-x: 47%;
+    }
+}
